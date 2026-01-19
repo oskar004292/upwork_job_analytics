@@ -3,6 +3,9 @@
 ## Machine Environ
 Windows 10 + Python 3.9.x
 
+## Recommendation
+If you have python environment and start from scratch, use Method 2.
+
 ## Run
 ## Method 1
 ```bash
@@ -12,7 +15,7 @@ pip install -e .
 bash scripts/run_dev.sh
 ```
 
-## Method 2
+## Method 2 (recommend)
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
