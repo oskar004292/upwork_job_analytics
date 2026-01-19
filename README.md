@@ -1,16 +1,18 @@
 # Upwork Jobs Statistics Bot
 
 ## Machine Environ
-Windows 10, Python 3.9.x
+Windows 10 + Python 3.9.x
 
 ## Run
+## Method 1
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -U pip
 pip install -e .
 bash scripts/run_dev.sh
 ```
-## Run
+
+## Method 2
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
